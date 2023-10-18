@@ -2,6 +2,58 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+# Shopify Template
+
+ This is full stack fully functional Shopify Template Project regarding by PIAIC Community
+
+ Install latest Nextjs:
+
+We recommend starting a new Next.js app using create-next-app, which sets up everything automatically for you. To create a project, run:
+
+"npx create-next-app@latest"
+
+What is your project named? my-app
+Would you like to use TypeScript? No / Yes
+Would you like to use ESLint? No / Yes
+Would you like to use Tailwind CSS? No / Yes
+Would you like to use `src/` directory? No / Yes
+Would you like to use App Router? (recommended) No / Yes
+Would you like to customize the default import alias (@/*)? No / Yes
+What import alias would you like configured? @/*
+
+After the prompts, create-next-app will create a folder with your project name and install the required dependencies.
+
+Good to know:
+
+Next.js now ships with TypeScript, ESLint, and Tailwind CSS configuration by default.
+You can optionally use a src directory in the root of your project to separate your application's code from configuration files.
+
+_________________________________________________________________________________________________________________________________________________
+
+ShadCN Install:
+1:Start by creating a new Next.js project using create-next-app:
+
+"npx create-next-app@latest my-app --typescript --tailwind --eslint"
+
+2: Run the shadcn-ui init command to setup your project:
+
+npx shadcn-ui@latest init
+
+Configure components.json
+You will be asked a few questions to configure components.json:
+
+Would you like to use TypeScript (recommended)? no / yes
+Which style would you like to use? › Default
+Which color would you like to use as base color? › Slate
+Where is your global CSS file? › › app/globals.css
+Do you want to use CSS variables for colors? › no / yes
+Where is your tailwind.config.js located? › tailwind.config.js
+Configure the import alias for components: › @/components
+Configure the import alias for utils: › @/lib/utils
+Are you using React Server Components? › no / yes
+
+
+
 First, run the development server:
 
 ```bash
