@@ -6,7 +6,7 @@ const Header = () => {
     <div className="flex flex-col gap-10">
       Shopify template project
       <Button>Click the shopify project</Button>
-      <h>Jasim Ali Rajput new tempalte for project </h>
+      <p>Jasim Ali Rajput new tempalte for project </p>
     </div>
   );
 };
