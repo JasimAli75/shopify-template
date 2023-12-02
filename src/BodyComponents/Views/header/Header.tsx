@@ -7,6 +7,7 @@ const Header = () => {
       Shopify template project
       <Button>Click the shopify project</Button>
       <p>Jasim Ali Rajput new tempalte for project </p>
+      <p>this is new power of AI generative AI boss </p>
     </div>
   );
 };
